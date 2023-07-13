@@ -1,0 +1,42 @@
+p{
+    margin:15px;
+    font-size:24px;
+}
+
+.aaa1{
+    font-family: 'Times New Roman', Times, serif;
+    margin:50px;
+    background-color: white;
+    align-items:center;
+  color: black;
+  border: 2px solid green;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.aaa2{
+    font-family: 'Times New Roman', Times, serif;
+    margin:50px;
+    background-color: white;
+    align-items:center;
+  color: black;
+  border: 2px solid red;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.aaa1:hover, .aaa1:active {
+    background-color: green;
+    color: white;
+  }
+
+  .aaa2:hover, .aaa2:active {
+    background-color:red;
+    color: white;
+  }
